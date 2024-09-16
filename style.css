@@ -1,0 +1,45 @@
+body{
+    overflow: hidden;
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: #fff;
+    flex-direction: column;
+}
+h1{
+    font-size: 4rem;
+    transition: 1s all;
+}
+P {
+    font-size: 2rem;
+    font-weight: bold;
+    animation: mudarCor 5s linear infinite;
+}
+h1:hover{
+    font-size: 4.5rem;
+}
+
+@keyframes mudarCor {
+    0% {
+        color: red;
+    }
+    25% {
+        color: rgb(255, 166, 0);
+    }
+    50% {
+        color: yellow;
+    }
+    75% {
+        color: rgb(0, 197, 49);
+    }
+    85% {
+        color: rgb(0, 174, 255);
+    }
+    100%{
+        color: red;
+    }
+}
